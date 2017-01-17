@@ -1,0 +1,122 @@
+
+#logo-emprende{
+	width: 200px;
+	height: 50px;
+	margin: 0;
+}
+#acomodar{
+	white-space: pre-line;
+}
+#puntos{
+	font-size: 16px;
+	text-transform: capitalize;
+}
+#serv-p{
+	font-size: 17px;
+}
+#centrar-p{
+	text-align: center;
+}
+.centrar-p1{
+	padding-bottom: 60px;
+	color: #145067;
+	font-size: 25px;
+	font-family: 'Oswald';
+	/*text-transform: capitalize;*/
+}
+.services-section{
+	background: #fff;
+}
+.serv-s{
+	white-space: pre;
+}
+#title-serv{
+	color: #145067;
+}
+#emp-emp{
+	width: 250px;
+	height: 130px;
+}
+.plan-name1{
+	background: #cf7234;
+}
+.plan-name2{
+	background: #00ab9d;
+}
+.plan-name3{
+	background: #808bc0;
+}
+.testimonio-emp{
+	margin-bottom: 40px;
+	font-family: 'Oswald';
+	text-transform: capitalize;
+	font-size: 32px;
+}
+.paquetess{
+	width: 600px;
+	/*height: 450px;*/
+	padding:0 auto;
+	padding-top: 30px;
+}
+.paquetes-s{
+	width: 100%;
+	height: 350px;
+	padding-bottom: 60px;
+}
+.padd{
+	padding-bottom: 60px;
+}
+.resaltar{
+	font-weight: 700;
+}
+.carousel-error{
+	height: 300px;
+	margin-bottom: 1rem;
+}
+.carousel-error .item img{
+	height: 300px;
+}
+.grises img {
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.grises img:hover { 
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.cpm{
+	height: 100px;
+}
+.mar-c{
+	margin-bottom: 40px;
+}
+.bor-l{
+	border-left: 1px solid #cec7c7;
+}
+.i-serv{
+	text-align: center;
+}
+.color-desde{
+	color: #ee7738;
+	font-weight: 600;
+}
