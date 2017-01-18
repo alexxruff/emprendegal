@@ -151,6 +151,15 @@ li {
     color: #fff;
 }
 
+@media(max-width:992px) {
+	.navbar-default .nav li a{
+    	font-size: 11px;
+    }
+    #logo-emprende{
+    	width: 160px;
+    	height: 40px
+    }
+}
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -263,6 +272,9 @@ li {
 }
 
 @media (max-width : 767px) {
+	.navbar-default{
+		background-color: #f8f8f8;
+	}
     .menu-button {
         width: 2em;
         height: 2em;
@@ -1045,7 +1057,7 @@ and (min-width : 551px){
 
 .about-us-section-1 {
     padding-top: 5px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .about-us-section-2 {
