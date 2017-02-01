@@ -4,4 +4,4 @@ Disallow: /images/team/
 Allow: /emprendegal/
 Allow: /emprendedores*/
 Allow: /asesoria para emprendedores*/
-
+Sitemap: http://www.emprendegal.com/sitemap.xml
