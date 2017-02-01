@@ -139,3 +139,9 @@ transition: all 0.5s ease;
 .a-c{
 	color: #f3f3f3;
 }
+.asterisco{
+	font-size: 10px;
+	font-weight: 300;
+	margin-top: 1rem;
+}
+
