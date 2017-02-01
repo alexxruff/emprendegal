@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /images/team/
+Allow: /emprendegal/
+Allow: /emprendedores*/
+Allow: /asesoria para emprendedores*/
+
