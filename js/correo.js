@@ -5,7 +5,7 @@ document.querySelector('#contactForm').addEventListener('submit', function(){
 	var phone = document.querySelector('#phone').value;
 	var menssage = document.querySelector('#message').value;
 
-	$ajax({
+	$.ajax({
 		method: 'POST',
 		data: {
 			nombre: nombre,
