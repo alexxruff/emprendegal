@@ -6,6 +6,7 @@ document.querySelector('#contacto').addEventListener('submit', function(e){
 	var menssage = document.querySelector('#message').value;
 
 	$.ajax({
+		url: 'https://correoemprendegal.herokuapp.com/envio'
 		method: 'POST',
 		data: {
 			nombre: nombre,
