@@ -1,5 +1,5 @@
 
-document.querySelector('#contactForm').addEventListener('submit', function(){
+document.querySelector('#contacto').addEventListener('submit', function(){
 	var nombre = document.querySelector('#name').value;
 	var email = document.querySelector('#email').value;
 	var phone = document.querySelector('#phone').value;
