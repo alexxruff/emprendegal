@@ -1,5 +1,5 @@
 
-document.querySelector('#contacto').addEventListener('submit', function(){
+document.querySelector('#contacto').addEventListener('submit', function(e){
 	var nombre = document.querySelector('#name').value;
 	var email = document.querySelector('#email').value;
 	var phone = document.querySelector('#phone').value;
@@ -14,4 +14,6 @@ document.querySelector('#contacto').addEventListener('submit', function(){
 			menssage: menssage
 		}
 	});
+
+	e.preventDefault();
 });
